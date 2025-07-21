@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.routes import federal_register, summarize
+from backend.app.routes import federal_register, summarize
+
 
 app = FastAPI()
 
