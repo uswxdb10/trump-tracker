@@ -1,5 +1,6 @@
 from fastapi import APIRouter, Body
-from app.services.gpt_service import summarize_text
+from backend.app.services.gpt_service import summarize_text
+
 
 router = APIRouter()
 
